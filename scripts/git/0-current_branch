@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Category: Git (General)
+# Hint: Displays your current local branches and highlights the one you are currently on.
+# Usage: ./0-current_branch
+
+git branch --show-current
+
