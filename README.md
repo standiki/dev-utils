@@ -21,10 +21,12 @@ Find specific scripts and hints in the subdirectories:
 ## 🌍 Global Access (Recommended)
 To run these scripts from any folder on your machine without typing the path:
 1. Open your shell profile: `vi ~/.zshrc` (or `~/.bashrc`)
-2. Add the script folders to your PATH: (Make to update the paths to match yours)
+2. Add the script folders to your PATH: (Make sure to update the paths to match yours)
    `export PATH="$PATH:$HOME/dev-utils/scripts/git:$HOME/dev-utils/scripts/common"`
 3. Refresh your shell: `source ~/.zshrc`
 4. Now, just type: `1-gpull`
+
+Voilà! 🎉 Happy hacking 👨‍💻
 
 ## ⚖️ License
 This project is licensed under the [MIT License](LICENSE). Feel free to fork, clone, and improve!
