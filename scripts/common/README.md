@@ -2,5 +2,5 @@
 
 | Script             | Purpose                                         | Usage            |
 |:------------------|:-----------------------------------------------|:----------------|
-| 1. `0-make_executable`  | Make script file executable ready  | `0-make_executable [file]` |
+| 1. `0-make_executable`  | Make script file executable ready  | `0-make_executable <path_to_script>` |
 
