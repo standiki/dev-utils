@@ -16,7 +16,7 @@ fi
 chmod +x "$FILE"
 
 # 2. Update Git index (so 'git clone' preserves permissions)
-git update-index --chmod=+x "$FILE"
+git update-index --add  --chmod=+x "$FILE"
 
 echo "✅ '$FILE' is now executable locally and tracked in Git."
 
