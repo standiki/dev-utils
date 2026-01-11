@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Category: Git (General)
+# Hint: Pulls changes from origin. Defaults to 'develop' if no branch is named.
+# Usage: 1-gpull [branch_name]
+
+# Set branch to the first argument, or 'develop' if $1 is empty
+BRANCH=${1:-develop}
+
+echo "🚀 Pulling latest changes from origin/$BRANCH..."
+git pull origin "$BRANCH"
+
