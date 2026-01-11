@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Category: Common (Contributor Tool)
+# Hint: Makes a script executable locally AND in the Git index so permissions persist for others.
+# Usage: 0-make_executable <path_to_script>
+
+FILE=$1
+
+# Check if file exists
+if [ ! -f "$FILE" ]; then
+    echo "❌ Error: File '$FILE' not found."
+    exit 1
+fi
+
+# 1. Make executable locally
+chmod +x "$FILE"
+
+# 2. Update Git index (so 'git clone' preserves permissions)
+git update-index --chmod=+x "$FILE"
+
+echo "✅ '$FILE' is now executable locally and tracked in Git."
+

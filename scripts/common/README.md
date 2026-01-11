@@ -2,5 +2,5 @@
 
 | Script             | Purpose                                         | Usage            |
 |:------------------|:-----------------------------------------------|:----------------|
-|  replace with script name  | script purpose |script usage  |
+| 1. `0-make_executable`  | Make script file executable ready  | `0-make_executable [file]` |
 
